@@ -6,6 +6,9 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 h1,
@@ -85,4 +88,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+img {
+    display: none;
+}
+    
+.col-6 {
+        text-align: center;
+        width: 100%;
+        
+    }
+h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
 }
